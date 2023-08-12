@@ -14,13 +14,7 @@ int main(void)
 
 	for (low = 'a'; low <= 'z'; low++)
 		{
-		if(low == 'z') 
-		{putchar(low);
-		 putchar('\n');}
-		else {
-		putchar(low);
-		}
-	}
-
+		putchar(low)	}
+                putchar('\n')
 	return (0);
 }
