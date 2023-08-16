@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdlib.h>
+#include <ctype.h>
 /**
  * _islower - Confirms lowercase leters
  *@c : char to confirm its lowercase
