@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <unistd.h>
 void print_alpahabet(void);
 
 /**
