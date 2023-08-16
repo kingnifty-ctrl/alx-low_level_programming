@@ -5,13 +5,12 @@
  *@c : char to confirm its lowercase
  *
  * Return : Return 1 on sucess and 0 otherwise
- */ 
+*/
 
 int _islower(int c)
 {
-	if(islower(c))
-	{	return (1);
-	}else {
+	if (islower(c))
+		return (1);
+	else
 		return (0);
-	}
 }
