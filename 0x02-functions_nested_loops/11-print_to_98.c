@@ -18,7 +18,7 @@ void print_to_98(int n)
 			res = i;
 			if (res == 98)
 			{	printf("%d", res);
-				printf('\n');
+				printf("\n");
 				break;
 			}
 			printf("%d, ", res);
@@ -26,7 +26,7 @@ void print_to_98(int n)
 	}
 	else if (n == 98)
 		printf("%d", n);
-		printf('\n');
+		printf("\n");
 	else
 	{
 		for (i = n; i >= 98; i--)
@@ -34,7 +34,7 @@ void print_to_98(int n)
 			res = i;
 			if (i == 98)
 			{	printf("%d", res);
-				printf('\n');
+				printf("\n");
 				break;
 			}
 			printf("%d, ", res);
