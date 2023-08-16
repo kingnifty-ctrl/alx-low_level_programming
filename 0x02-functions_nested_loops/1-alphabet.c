@@ -1,6 +1,6 @@
 #include "main.h"
 #include <unistd.h>
-void print_alpahabet(void);
+
 
 /**
  * print_alphabet - Prints the alphabets
