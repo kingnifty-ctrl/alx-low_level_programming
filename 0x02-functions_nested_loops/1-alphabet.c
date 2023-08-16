@@ -1,16 +1,6 @@
 #include "main.h"
-/**
- * main - Check code
- *
- * Return: Always 0.
-*/
-void print_alpahabet(void);
 
-int main(void)
-{
-	print_alphabet();
-	return (0);
-}
+void print_alpahabet(void);
 
 /**
  * print_alphabet - Prints the alphabets
