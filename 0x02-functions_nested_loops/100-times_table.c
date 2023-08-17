@@ -1,5 +1,5 @@
-#include "holberton.h"
-
+#include "main.h"
+void putformat(int n);
 /**
  * print_times_table - prints times table for numbers from 0-14
  * @n: An input integer value
@@ -46,7 +46,7 @@ void putformat(int n)
 	}
 	else
 	{
-		_putchar(',');
+		_putchar(',')
 		_putchar(' ');
 		_putchar(n / 100 + '0');
 		_putchar(n / 10 % 10 + '0');
