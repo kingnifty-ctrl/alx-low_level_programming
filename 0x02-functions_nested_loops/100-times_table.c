@@ -1,5 +1,5 @@
 #include "main.h"
-
+void putformat(int n);
 /**
  * print_times_table - prints times table for numbers from 0-14
  * @n: An input integer value
